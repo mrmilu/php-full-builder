@@ -4,13 +4,12 @@ RUN apk update && \
     apk add --no-cache \
     ruby \
     ruby-dev  \
+    ruby-rdoc \
     build-base \
     libnotify \
     autoconf \
     nasm \
     automake
-
-RUN gem install rdoc
 
 RUN gem install sass
 
