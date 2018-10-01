@@ -2,6 +2,7 @@ FROM bartos/php-builder
 
 RUN apk update && \
     apk add --no-cache \
+    git \
     ruby \
     ruby-dev  \
     ruby-rdoc \
